@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/styles.css">
+
+        <title>Thick mist</title>
+    </head>
+    <body>
+        <div class="sample-header">
+            <div class="sample-header-section">
+              <h1 style="font-weight:lighter;";><a style="color:black" href="/">THICK MIST</a></h1>
+
+            </div>
+        </div>
+        <div class="story" style="margin-top: 10vh; margin-left: 20%; margin-right: 20%">
+
+            <ul>
+                {% for snippet in blocktext %}
+                    <p class="paragraph">{{ snippet }}</p>
+                {% endfor %}
+            </ul>
+        </div>
+            <br/>
+        <div class="optiondiv" style="margin-top: 10vh; margin-left: 20%; margin-right: 20%">
+            <ul>
+                <p class="option">A <br/> <a href="{{str_id_A}}">{{ option_A }}</a>
+                </p>
+                <p class="option">B <br/> <a href="{{str_id_B}}">{{ option_B }}</a>
+                </p>
+            </ul>
+        </div>
+    </body>
+</html>

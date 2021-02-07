@@ -1,0 +1,42 @@
+body {
+    font-family:'Courier New';
+    color: #222;
+    background-color: rgb(228, 228, 228);
+}
+
+.story {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    /* width: 50% */
+}
+
+.sample-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    padding: 2rem;
+    font-family:'Courier New';
+  }
+
+.paragraph {
+    text-align: justify;
+    width: 70%;
+    font-family:'Courier New';
+}
+
+/* .optiondiv {
+    display: flex;
+    /bottom: 50%;
+    right: 50%; 
+    width: 50%
+} */
+
+.option {
+    text-align: left;
+    padding:1rem;
+    width: 40%;
+    font-family:'Courier New';
+}

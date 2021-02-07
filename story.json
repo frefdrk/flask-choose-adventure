@@ -1,0 +1,53 @@
+{
+    "begin": {
+        "text": [
+            "The last noise the engine on Lanas boat made was a kind of high pitched chirp. You tried to get it working but with no effect. As the sun got lower and the fog grew thicker your optimism faded. You don't have any grasp on how long you have been drifting. The fog is so dense that you can't see the sun. Or the moon? How long has it been? It feels like you've been drifting for days.",
+            "The little food and water you brought didn't last long. The hunger isn't so bad yet, but the thirst is... worse. At least you are not alone. Having Lana with you is a small comfort, but your conversations grew more and more dismal as the severity of the situation dawned on the two of you. You had been quietly staring into the grey mist for some time when Lana breaks the silence.",
+            "\"Can you hear that? Is that a helicopter?\", she says.",
+            "You focus your hearing. A feint murmuring can be heard from the sky, but your eyes give you no further information.",
+            "\"I know we said we should save the flare until we are sure we can be seen, but this might be our only chance! We should fire it, right?\" she continues, as she searches for the flare."
+        ],
+        "A": {
+            "text": "It's now or never. Better use the flare before it's too late.",
+            "str_id": "HrhGTyjWVrmbsSRg"
+        },
+        "B": {
+            "text": "It's too risky to use the flare. You only have one.",
+            "str_id": "cvbRbFNOsdReWByF"
+        }
+    },
+    "HrhGTyjWVrmbsSRg": {
+        "text": [ "Lana aims the flare gun at the sky, trying to locate the direction of the murmuring sound as you tell her. ",
+            "\"It’s now or never. Fire it.\", you say. ",            
+            "Lana pulls the trigger. The flare is bright and red and colours the thick mist around you pink, making it much less frightening. As the flare rises, you see less and less of it. Finally, all the pink has faded and the mist has regained all of its grey, depressive colour. ",
+            "You wait. No helicopter. No murmuring sound. You can see the muscles in Lanas upper body loosening as she slouches down. Your one chance of being seen... wasted. ",
+            "\"To hell with this mist. To hell with this boat. To hell with us for not being prepared for disaster... and to hell with this GOD DAMN THIRST!\", she says, louder and louder with every word. She leans over the side of the boat, her hands formed like a cup. She submerges them and brings them to her dry lips.",
+            "The gulping sound of Lana drinking makes your own thirst almost unbearable. You know that drinking sea water is not exactly healthy, but you can't remember why or what the consequences would be. Could it really be worse than this?"
+            
+        ],
+        "A": {
+            "text": "You have to hydrate to survive. Salty water is better than nothing.",
+            "str_id": "b"
+        },
+        "B": {
+            "text": "You don't know what you're risking, so it's better to hold on and wait for rescue without drinking.",
+            "str_id": "b"
+        }
+    },
+    "cvbRbFNOsdReWByF": {
+        "text": ["Lana aims the flare gun at the sky, trying to locate the direction of the murmuring sound as you tell her.",
+            "\"No, we should save it. I'm not sure that's even a helicopter, the sound is unlike anything I've heard before. It could be anything.\" you say.",            
+            "Lana slowly lowers her arm. You can see the muscles in her upper body loosening as she slouches back down. That was not the response she wanted.",
+            "\"To hell with this mist. To hell with this boat. To hell with us for not being prepared for disaster... and to hell with this GOD DAMN THIRST!\", she says, louder and louder with every word. She leans over the side of the boat, her hands formed like a cup. She submerges them and brings them to her dry lips.", 
+            "The gulping sound of Lana drinking makes your own thirst almost unbearable. You know that drinking sea water is not exactly healthy, but you can't remember why or what the consequences would be. Could it really be worse than this?"
+        ],
+        "A": {
+            "text": "You have to hydrate to survive. Salty water is better than nothing.",
+            "str_id": "f"
+        },
+        "B": {
+            "text": "You don't know what you're risking, so it's better to hold on and wait for rescue without drinking.",
+            "str_id": "f"
+        }
+    }
+}
